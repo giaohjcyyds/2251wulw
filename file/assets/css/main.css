@@ -3110,16 +3110,12 @@ input, select, textarea {
 					}
 
 	}
-.video-container {  
-    display: flex;  
-    justify-content: center; /* 水平居中 */  
-    align-items: center; /* 垂直居中 */  
-    height: 100vh; /* 假设你希望视频占据整个视口的高度 */  
-    width: 100%; /* 容器宽度为100% */  
-    background-color: #f2f2f2; /* 可选：设置背景颜色以在视频加载前显示 */  
-}  
+.video-wrapper,  
+    .div-module {  
+        width: 100%;  
+    }  
   
-video {  
-    max-width: 100%; /* 限制视频宽度以适应容器 */  
-    height: auto; /* 保持视频的原始宽高比 */  
-}
+    video {  
+        width: 100%; 
+        height: auto; 
+    }
